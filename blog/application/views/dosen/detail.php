@@ -43,8 +43,6 @@
                         <p>Foto Dosen</p>
                         <?php echo $error;?>
                         <br/> <br/>
-                        <a href=""target="_blank"><button class="btn btn-outline-info">instagram</button></a>  
-                        <br/> <br/>
                         <?php echo from_open_multipart('dosen/upload');?>
                         <input type="file" name="foto" size="300"/>
                         <input type="hidden" name="iddosen" value="<?=$dosen->id?>"/> 
