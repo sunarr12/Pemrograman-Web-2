@@ -43,7 +43,7 @@
                         <p>Foto Mahasiswa</p>
                         <?php echo $error;?>
                         <br/> <br/>
-                        <a href=""target="_blank"><button class="btn btn-outline-info">instagram</button></a>  
+                        <a href="https://www.instagram.com/inisunarrr292_/"target="_blank"><button class="btn btn-outline-info">instagram</button></a>  
                         <br/> <br/>
                         <?php echo from_open_multipart('mahasiswa/upload');?>
                         <input type="file" name="foto" size="300"/>
